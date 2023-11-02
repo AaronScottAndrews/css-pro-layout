@@ -1,4 +1,5 @@
-import React from 'react';
+//import React from 'react';
+import './MovieCard.css';
 
 const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
   return (
